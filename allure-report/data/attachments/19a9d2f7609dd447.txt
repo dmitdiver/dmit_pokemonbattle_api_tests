@@ -1,0 +1,1 @@
+{"pokemon_id": "1389860", "name": "Bobik", "photo_id": 1}

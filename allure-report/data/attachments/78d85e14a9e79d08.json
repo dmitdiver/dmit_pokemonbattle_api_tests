@@ -1,0 +1,9 @@
+{
+    "User-Agent": "python-requests/2.34.2",
+    "Accept-Encoding": "gzip, deflate, zstd",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "trainer_token": "95adee986cb298a0b6c69a78706c0fbe",
+    "Content-Type": "application/json",
+    "Content-Length": "25"
+}

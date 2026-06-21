@@ -1,0 +1,1 @@
+https://api.pokemonbattle.ru/v2/battle

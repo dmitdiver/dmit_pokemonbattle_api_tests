@@ -1,15 +1,24 @@
+import allure
+
 from requests import Session
 
 from constants import BASE_URL, TRAINER_ID
+from helpers.api_client import send_request
 
 
 def knockout_all_trainers_pokemons(api_session: Session) -> None:
-    response = api_session.get(
-        BASE_URL + "/pokemons",
-        params={"trainer_id": TRAINER_ID}
-    )
 
-    assert response.status_code == 200
+    with allure.step("Получить список покемонов тренера"):
+        response = send_request(
+            "GET",
+            BASE_URL + "/pokemons",
+            headers=api_session.headers,
+            params={
+                "trainer_id": TRAINER_ID
+            }
+        )
+
+        assert response.status_code == 200
 
     body = response.json()
 
@@ -18,24 +27,33 @@ def knockout_all_trainers_pokemons(api_session: Session) -> None:
 
     for pokemon in body["data"]:
         if pokemon["status"] == 1:
-            response = api_session.post(
-                BASE_URL + "/pokemons/knockout",
-                json={"pokemon_id": pokemon["id"]}
-            )
+            with allure.step(f"Нокаутировать покемона с ID {pokemon['id']}"):
+                response = send_request(
+                    "POST",
+                    BASE_URL + "/pokemons/knockout",
+                    headers=api_session.headers,
+                    json={
+                        "pokemon_id": pokemon["id"]
+                    }
+                )
 
-            assert response.status_code == 200
+                assert response.status_code == 200
 
 
 def create_pokemon(api_session: Session) -> str:
-    response = api_session.post(
-        BASE_URL + "/pokemons",
-        json={
-            "name": "Ohlatop",
-            "photo_id": 1
-        }
-    )
 
-    assert response.status_code == 201
+    with allure.step("Создать нового покемона"):
+        response = send_request(
+            "POST",
+            BASE_URL + "/pokemons",
+            headers=api_session.headers,
+            json={
+                "name": "Ohlatop",
+                "photo_id": 1
+            }
+        )
+
+        assert response.status_code == 201
 
     body = response.json()
 
