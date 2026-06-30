@@ -1,3 +1,4 @@
 BASE_URL = "https://api.pokemonbattle.ru/v2"
 TRAINER_ID = 64605
 TOKEN = "95adee986cb298a0b6c69a78706c0fbe"
+LAVKA_URL = "https://lavka.pokemonbattle.ru"
