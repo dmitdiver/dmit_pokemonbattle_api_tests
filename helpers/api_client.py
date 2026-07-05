@@ -21,7 +21,9 @@ def attach_request_response(response):
 
     if request.body:
         allure.attach(
-            request.body.decode() if isinstance(request.body, bytes) else str(request.body),
+            request.body.decode()
+            if isinstance(request.body, bytes)
+            else str(request.body),
             name="Request body",
             attachment_type=allure.attachment_type.TEXT
         )

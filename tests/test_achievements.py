@@ -13,7 +13,7 @@ class TestAchievements:
 
     @allure.title("Негативная проверка GET /achievements с некорректным is_reached")
     def test_invalid_is_reached(self, api_session):
-        with allure.step("Отправить GET /achievements с некорректным query-параметром is_reached"):
+        with allure.step("Отправить GET /achievements с некорректным query is_reached"):
             response = send_request(
                 "GET",
                 BASE_URL + "/achievements",

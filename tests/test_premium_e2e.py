@@ -24,7 +24,9 @@ class TestPremiumE2E:
     @allure.title("E2E: успешная покупка Premium")
     @pytest.mark.positive
     def test_buy_premium_successfully(self, api_session):
-        with allure.step("Подготовить состояние: отменить Premium, если он уже активен"):
+        with allure.step(
+                "Подготовить состояние: отменить Premium, если он уже активен"
+        ):
             cancel_premium(api_session)
 
         with allure.step("Купить Pokemon Premium"):
