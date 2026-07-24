@@ -1,0 +1,9 @@
+{
+    "Server": "nginx/1.18.0 (Ubuntu)",
+    "Date": "Sun, 21 Jun 2026 16:23:56 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "29059",
+    "Connection": "keep-alive",
+    "charset": "utf-8",
+    "trace_id": "c743e53caeaf577f9af37d2c7718c0a6"
+}

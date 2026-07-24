@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "slug": "beginning",
+            "is_reached": false
+        },
+        {
+            "slug": "out_of_battles",
+            "is_reached": false
+        },
+        {
+            "slug": "self_knockout",
+            "is_reached": false
+        },
+        {
+            "slug": "max_level"
+        },
+        {
+            "slug": "one_vs_seven",
+            "is_reached": false
+        },
+        {
+            "slug": "five_battles",
+            "is_reached": false
+        },
+        {
+            "slug": "three_defends",
+            "is_reached": false
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+https://api.pokemonbattle.ru/v2/trainers?city=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&sort=desc_level

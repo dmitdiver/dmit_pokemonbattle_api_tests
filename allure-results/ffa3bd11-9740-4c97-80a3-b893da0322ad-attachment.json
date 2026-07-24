@@ -1,0 +1,196 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "id": "1389860",
+            "name": "Bobik",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 1,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389859",
+            "name": "Bobik",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389511",
+            "name": "Bobik",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389367",
+            "name": "Bobik",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389366",
+            "name": "Bobik",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389365",
+            "name": "Bobik",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389364",
+            "name": "Bobik",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389363",
+            "name": "Bobik",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389362",
+            "name": "Ohlatop",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389361",
+            "name": "Ohlatop",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389360",
+            "name": "Ohlatop",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389359",
+            "name": "Ohlatop",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389358",
+            "name": "Ohlatop",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1389357",
+            "name": "Ohlatop",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1388978",
+            "name": "Pikachu",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1388897",
+            "name": "Pikachu",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1388896",
+            "name": "NewName",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1388895",
+            "name": "NewName",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        },
+        {
+            "id": "1388894",
+            "name": "NewName",
+            "stage": "1",
+            "photo_id": 1,
+            "attack": 1,
+            "trainer_id": "64605",
+            "status": 0,
+            "in_pokeball": 0
+        }
+    ],
+    "next_page": false
+}

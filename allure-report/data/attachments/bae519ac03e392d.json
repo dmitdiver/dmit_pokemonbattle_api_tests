@@ -1,0 +1,18 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "id": "64645",
+            "trainer_name": "Вера",
+            "level": "1",
+            "pokemons": [
+                3
+            ],
+            "pokemons_in_pokeballs": [],
+            "is_premium": false,
+            "premium_duration": 0,
+            "avatar_id": 2,
+            "city": "Москва"
+        }
+    ]
+}

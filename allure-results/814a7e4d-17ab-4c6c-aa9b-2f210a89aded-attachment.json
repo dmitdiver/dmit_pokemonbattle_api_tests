@@ -1,0 +1,4 @@
+{
+    "status": "error",
+    "message": "[{'type': 'bool_parsing', 'loc': ('query', 'is_reached'), 'msg': 'Input should be a valid boolean, unable to interpret input', 'input': 'abracadabra'}]"
+}
