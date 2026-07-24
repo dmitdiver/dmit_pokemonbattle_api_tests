@@ -58,3 +58,18 @@ def create_pokemon(api_session: Session) -> str:
     body = response.json()
 
     return body["id"]
+
+def add_pokemon_to_pokeball(api_session: Session, pokemon_id: str) -> None:
+
+    with allure.step(f"Добавить покемона с ID {pokemon_id} в покебол"):
+        response = send_request(
+            "POST",
+            BASE_URL + "/trainers/add_pokeball",
+            headers=api_session.headers,
+            json={
+                "pokemon_id": pokemon_id
+            }
+        )
+
+        assert response.status_code == 200
+
