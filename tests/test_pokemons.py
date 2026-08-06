@@ -12,6 +12,7 @@ from helpers.pokemon_helpers import (
 class TestPokemons:
 
     @allure.title("Изменение имени покемона")
+    @pytest.mark.api
     @pytest.mark.positive
     def test_change_pokemons_name(self, api_session):
 

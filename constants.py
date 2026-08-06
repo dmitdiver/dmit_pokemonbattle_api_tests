@@ -1,5 +1,23 @@
-"""Константы проекта."""
-BASE_URL = "https://api.pokemonbattle.ru/v2"
-TRAINER_ID = 64605
-TOKEN = "95adee986cb298a0b6c69a78706c0fbe"
-LAVKA_URL = "https://lavka.pokemonbattle.ru"
+import os
+
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
+
+BASE_URL = os.getenv(
+    "BASE_URL",
+    "https://api.pokemonbattle.ru/v2",
+)
+
+TRAINER_ID = int(
+    os.getenv("TRAINER_ID", "64605")
+)
+
+TOKEN = os.getenv("TOKEN", "")
+
+LAVKA_URL = os.getenv(
+    "LAVKA_URL",
+    "https://lavka.pokemonbattle.ru",
+)

@@ -22,6 +22,7 @@ def cancel_premium(api_session):
 class TestPremiumE2E:
 
     @allure.title("E2E: успешная покупка Premium")
+    @pytest.mark.api
     @pytest.mark.positive
     def test_buy_premium_successfully(self, api_session):
         with allure.step(
@@ -57,6 +58,7 @@ class TestPremiumE2E:
             cancel_premium(api_session)
 
     @allure.title("E2E: покупка Premium не проходит при некорректных платёжных данных")
+    @pytest.mark.api
     @pytest.mark.negative
     @pytest.mark.parametrize(
         "field,value",

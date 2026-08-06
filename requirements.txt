@@ -31,3 +31,4 @@ requests==2.34.2
 rpds-py==2026.5.1
 tomlkit==0.15.0
 urllib3==2.7.0
+python-dotenv==1.2.2
